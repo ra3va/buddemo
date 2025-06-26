@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 
 export default function BudBeamComingSoon() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-8 overflow-hidden">
-      <div className="absolute inset-0 z-0">
+    <main className="flex flex-col items-center min-h-screen bg-gray-900 text-white px-8 py-16">
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-900 to-green-900/40"></div>
         <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
