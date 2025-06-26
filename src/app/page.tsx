@@ -22,9 +22,8 @@ export default function BudBeamComingSoon() {
             alt="BudBeam Technologies Logo"
             width={150}
             height={150}
-            className="mx-auto mb-8 h-auto w-auto"
+            className="mx-auto mb-8"
             style={{ filter: 'brightness(1.2) saturate(1.1)' }}
-            unoptimized
             priority
           />
         </motion.div>
