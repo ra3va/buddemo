@@ -54,19 +54,21 @@ export default function BudBeamComingSoon() {
             BudBeam is building a compliant, intelligent, and seamless platform to revolutionize the cannabis retail experience. We are currently undergoing SOC 2 certification and integrating with industry-leading partners to ensure a secure and powerful launch.
           </motion.p>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.8, duration: 0.8, ease: 'easeOut' }}
-            className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg p-6 inline-block"
-          >
-            <p className="text-md text-gray-400 mb-2">For partnership or investment inquiries, please contact us:</p>
-            <a href="mailto:ra@budbeam.io" className="text-2xl font-mono text-green-400 hover:text-green-300 transition-colors duration-300 tracking-wider">
-              ra@budbeam.io
-            </a>
-          </motion.div>
         </motion.div>
       </div>
+
+      {/* Contact Section - Centered Below Both Columns */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 1, duration: 0.8, ease: 'easeOut' }}
+        className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg p-6 mt-12 z-10"
+      >
+        <p className="text-md text-gray-400 mb-2 text-center">For partnership or investment inquiries, please contact us:</p>
+        <a href="mailto:ra@budbeam.io" className="text-2xl font-mono text-green-400 hover:text-green-300 transition-colors duration-300 tracking-wider block text-center">
+          ra@budbeam.io
+        </a>
+      </motion.div>
 
       <motion.footer 
         initial={{ opacity: 0 }}
