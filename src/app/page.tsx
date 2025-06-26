@@ -20,8 +20,8 @@ export default function BudBeamComingSoon() {
           <Image
             src="/logo/bbthor.png"
             alt="BudBeam Technologies Logo"
-            width={150}
-            height={150}
+            width={200}
+            height={200}
             className="mx-auto mb-8"
             style={{ filter: 'brightness(1.2) saturate(1.1)' }}
             priority
